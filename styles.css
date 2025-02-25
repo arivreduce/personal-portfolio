@@ -144,3 +144,35 @@ i.fa-slash {
   margin-top: 0.75rem;
   font-size: 1.25rem;
 }
+.links-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+  column-gap: 3rem;
+  font-size: 1.5rem;
+}
+
+.links-container i,
+.links-container p {
+  display: inline-block;
+}
+.links-container a:hover {
+  padding-top: 1rem;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  border-top: 5px solid var(--secondary);
+  padding: 0 5rem;
+}
+.copyright {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 800px) {
+  .links-container {
+    flex-wrap: wrap;
+  }
+}
